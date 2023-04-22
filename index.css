@@ -3,7 +3,7 @@ body{
     margin: 0px 0px;
     display: flex;
     background: #1E1E1E;
-    padding-bottom: 1000px;
+    padding-bottom: 20px;
 }
 .nav_container{
     position: absolute;
@@ -16,6 +16,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: #1E1E1E;
 }
 .nav_logo{
     position: relative;
@@ -94,8 +95,9 @@ a{
 }
 .contactUs{
     position: absolute;
-    top: 490px;
+    top: 470px;
     left: 40px;
+    padding-bottom: 0px;
 }
 #input1, #input2, #input3{
     padding-top: 30px;
@@ -120,6 +122,7 @@ a{
 }
 ::placeholder { 
     color: #FCAF02;
+    font-family: 'Montserrat';
 }
 input:focus{
     outline:none;
@@ -127,14 +130,16 @@ input:focus{
 table{
     position: absolute;
     width: 1170px;
-    top: 950px;
+    top: 920px;
     left: 40px;
     color: #FCAF02;
     border: thin solid #FCAF02;
 }
 th{
-    border: thin solid #FCAF02;
     padding: 20px;
+}
+#table_header{
+    border: thin solid #FCAF02;
 }
 td{
     padding: 10px;
@@ -148,12 +153,11 @@ tfoot{
     background-color: #FCAF02;
     color: #1E1E1E;
 }
-.footer{
-    border: 1px solid #1E1E1E; 
-    padding: 10px 10px 50px 10px;
-}
-textarea{
-    border: none;
-    width: 100%; 
-    padding: 0;
+footer {
+    position:absolute;
+    top: 1300px;
+    bottom:0;
+    width:100%;
+    height:180px;
+    background:#1E1E1E;
 }
